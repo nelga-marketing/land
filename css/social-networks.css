@@ -1,0 +1,50 @@
+.social-networks .circle-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #222;
+    border-radius: 50%;
+    margin: 100px auto;
+}
+
+.social-networks .circle-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    line-height: 300px;
+    font-size: 18px;
+    z-index: 1;
+}
+
+.social-networks .icons {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social-networks .icons i {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    line-height: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+
+.social-networks .icons i:nth-child(1) { transform: rotate(0deg)   translate(140px) rotate(0deg);    color: #FFFFFF; background-color: #266af1; }
+.social-networks .icons i:nth-child(2) { transform: rotate(60deg)  translate(140px) rotate(-60deg);  color: #52a9dc; }
+.social-networks .icons i:nth-child(3) { transform: rotate(120deg) translate(140px) rotate(-120deg); color: #FFFFFF; background-color: #ef336e; }
+.social-networks .icons i:nth-child(4) { transform: rotate(180deg) translate(140px) rotate(-180deg); color: #FFFFFF; background-color: #2667bb; }
+.social-networks .icons i:nth-child(5) { transform: rotate(240deg) translate(140px) rotate(-240deg); color: #ee333c; }
+.social-networks .icons i:nth-child(6) { transform: rotate(300deg) translate(140px) rotate(-300deg); color: #cd2e33; }

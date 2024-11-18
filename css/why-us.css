@@ -1,0 +1,30 @@
+.why-us {
+}
+	.why-us ul {
+	}
+        .why-us ul li {
+            text-align: left;
+        }
+
+    .why-us ul li.section-item {
+        display : flex;
+        gap     : 30px;
+        height  : 150px;
+    }
+        .why-us ul li.section-item div.left {
+            flex     : 1;
+            overflow : hidden;
+        }
+            .why-us ul li.section-item div.left img {
+                width      : 100%;
+                height     : 100%;
+                object-fit : cover; /* This will cover the area of the container without distorting the aspect ratio */
+            }
+        .why-us ul li.section-item div.right {
+            flex       : 3;
+            text-align : justify;
+            color      : #AAA;
+        }
+            .why-us ul li.section-item div.right b {
+                color: #FFF;
+            }

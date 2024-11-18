@@ -1,0 +1,74 @@
+.carousel-portfolio {
+    height: 100px;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+    .carousel-portfolio > div {
+    }
+
+    .carousel-portfolio .slick-slide {
+        transition: transform 0.5s ease;
+        transform: scale(0.8); /* Default smaller scale for all slides */
+    }
+
+    .carousel-portfolio .slick-center {
+        transform: scale(1); /* Scale up the center (active) slide */
+    }
+    
+    .carousel-portfolio .slick-slide a {
+        outline: none;
+    }
+
+    .carousel-portfolio .slick-slide img {
+        width: 100%; /* Full width of the slide */
+        height: auto; /* Maintain aspect ratio */
+        object-fit: cover; /* Cover the slide area without stretching */
+    }
+
+    /* Optional: customize navigation buttons */
+    .carousel-portfolio .slick-prev,
+    .carousel-portfolio .slick-next {
+        color: #fff; /* Change as needed */
+        font-size: 24px; /* Adjust size */
+        z-index: 1; /* Make sure arrows are clickable */
+    }
+
+
+
+
+.carousel-review {
+    height: 100px;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+    .carousel-review > div {
+    }
+
+    .carousel-review .slick-slide {
+        transition: transform 0.5s ease;
+        transform: scale(0.8); /* Default smaller scale for all slides */
+    }
+
+    .carousel-review .slick-center {
+        transform: scale(1); /* Scale up the center (active) slide */
+    }
+    
+    .carousel-review .slick-slide a {
+        outline: none;
+    }
+
+    .carousel-review .slick-slide img {
+        width: 100%; /* Full width of the slide */
+        height: auto; /* Maintain aspect ratio */
+        object-fit: cover; /* Cover the slide area without stretching */
+    }
+
+    /* Optional: customize navigation buttons */
+    .carousel-review .slick-prev,
+    .carousel-review .slick-next {
+        color: #fff; /* Change as needed */
+        font-size: 24px; /* Adjust size */
+        z-index: 1; /* Make sure arrows are clickable */
+    }

@@ -1,0 +1,15 @@
+.packages {
+}
+	.packages ul {
+		text-align: left;
+		font-size: 12px;
+		height: 220px;
+	}
+		.packages ul li {
+			color: #AAA;
+			list-style-type: none;
+		}
+
+		.packages ul li b {
+			color: #FFF;
+		}

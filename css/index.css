@@ -1,0 +1,106 @@
+@font-face {
+  font-family: DejaVuSansCondensed;
+  src: url(../fonts/DejaVuSansCondensed.ttf);
+}
+
+html, body {
+    background-color : #191919;
+    background-image: url('../img/bg.png');
+    background-repeat: repeat;
+    font-family      : DejaVuSansCondensed;
+}
+    html *, body * {
+        color   : #FFF;
+        margin  : 0;
+        padding : 0;
+    }
+
+    a {
+        color           : #FFF;
+        text-decoration : none;
+    }
+    a:hover {
+        color           : #e7c057;
+        text-decoration : underline;
+    }
+
+    .content {
+        width            : 860px;
+        margin           : 0 auto;
+        text-align       : center;
+    }
+
+    section {
+        background-color : #000000;
+        padding          : 20px 40px 40px 0 !important;
+        margin           : 10px 0 0 0 !important;
+        border-radius    : 10px;
+    }
+
+    header {
+    }
+
+    footer {
+        padding   : 10px 0 20px 0;
+        font-size : 11px;
+        display   : flex;
+        width     : 100%;
+    }
+        footer .left {
+            text-align : left;
+            flex       : 1;
+            color     : #999;
+        }
+        footer .right {
+            text-align : right;
+            flex       : 1;
+            color     : #999;
+        }
+        footer a {
+            text-decoration: underline;
+            color: #999;
+        }
+
+    .content .card {
+      background-color: #333;  /* Dark background for each card */
+      color: #fff;  /* White text color */
+    }
+
+    .content .card-header {
+      background-color: #222;  /* Even darker shade for headers */
+    }
+
+    .content .btn-primary {
+      background-color: #007bff;
+      border-color: #007bff;
+    }
+
+    .content .btn-warning {
+      background-color: #ffc107;
+      border-color: #ffc107;
+    }
+
+    .content .btn-secondary {
+      background-color: #6c757d;
+      border-color: #6c757d;
+    }
+
+
+.mfp-content,
+.mfp-figure,
+.mfp-img {
+  background: transparent !important;
+}
+
+.mfp-img {
+  background: none !important;
+  background-color: transparent !important;
+  filter: none !important;
+}
+
+.mfp-figure,
+.mfp-content,
+.mfp-wrap {
+  background: transparent !important;
+}
+
