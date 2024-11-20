@@ -3,11 +3,20 @@
   src: url(../fonts/DejaVuSansCondensed.ttf);
 }
 
+/*
+Desktop: 1920×1080, 1366×768, 1280×1024, 1024×768
+Mobile: 375×667, 414×736, 360×800, 390×844
+Tablet: 768×1024, 1024×768, 601×962
+*/
+
 html, body {
-    background-color : #191919;
-    background-image: url('../img/bg.png');
-    background-repeat: repeat;
-    font-family      : DejaVuSansCondensed;
+/*    background-color  : #191919;*/
+    background-color      : #000;
+    background-image      : url('../img/bg_stone.png');
+    background-repeat     : repeat-x;
+    background-size       : 50% auto;
+    background-attachment : fixed;
+    font-family           : DejaVuSansCondensed;
 }
     html *, body * {
         color   : #FFF;
@@ -25,6 +34,7 @@ html, body {
     }
 
     .content {
+        padding          : 35px 0 0 0;
         width            : 860px;
         margin           : 0 auto;
         text-align       : center;
@@ -33,8 +43,8 @@ html, body {
     section {
         background-color : #000000;
         padding          : 20px 40px 40px 0 !important;
-        margin           : 10px 0 0 0 !important;
-        border-radius    : 10px;
+        margin           : 0;
+        border-bottom    : 1px dashed #222;
     }
 
     header {
@@ -49,12 +59,12 @@ html, body {
         footer .left {
             text-align : left;
             flex       : 1;
-            color     : #999;
+            color      : #999;
         }
         footer .right {
             text-align : right;
             flex       : 1;
-            color     : #999;
+            color      : #999;
         }
         footer a {
             text-decoration: underline;
@@ -85,22 +95,16 @@ html, body {
       border-color: #6c757d;
     }
 
+    .gradient-text {
+        background-image: linear-gradient(to bottom, #FFF 0%, #999 100%);
 
-.mfp-content,
-.mfp-figure,
-.mfp-img {
-  background: transparent !important;
-}
+        /* Ensure the gradient is only visible on the text */
+        -webkit-background-clip: text;
+        background-clip: text;
 
-.mfp-img {
-  background: none !important;
-  background-color: transparent !important;
-  filter: none !important;
-}
+        /* Make the text color transparent so the gradient shows through */
+        color: transparent;
 
-.mfp-figure,
-.mfp-content,
-.mfp-wrap {
-  background: transparent !important;
-}
-
+        /* WebKit-specific styling for compatibility */
+        -webkit-text-fill-color: transparent; 
+    }

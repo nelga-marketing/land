@@ -1,7 +1,13 @@
 .menu {
     display: flex;
     justify-content: center; /* Centers the menu horizontally in the div */
-    padding: 10px 0 0 0; /* Padding above and below the menu */
+    width: 100%; /* Menu width is 100% of the viewport */
+    background: linear-gradient(to bottom, #292929 0%, #161616 100%); /* Slight dark-gray to darker-gray gradient */
+    text-align: center; /* Centering the menu items */
+    padding: 6px 0; /* Padding around menu items */
+    box-shadow: 0 0 10px #000;
+    position: fixed;
+    z-index: 1000;
 }
 
     .menu .menu-items {
@@ -16,5 +22,13 @@
     }
 
     .menu .menu-link {
-        font-weight: bold; /* Makes the text bold */
+        font-size: 12px;
+    }
+
+    .menu a {
+        color           : #AAA;
+        text-decoration : none;
+    }
+    .menu a:hover {
+        color           : #FFF;
     }

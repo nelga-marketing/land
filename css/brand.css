@@ -9,20 +9,22 @@
 	.brand-text {
 	}
 		.brand .this-is-how-we-see {
-			font-size    : 32px;
-			line-height  : 0.7em;
-			transform    : scaleY(0.7)
+			font-size    : 31px;
+			line-height  : 0.8em;
+			transform    : scaleY(0.7);
+			margin       : -3px 0 -3px 0;
 		}
 
 		.brand .your-brand {
 			font-size    : 51px;
 			line-height  : 0.7em;
 			color        : #e7c057;
-			transform    : scaleY(0.7)
+			transform    : scaleY(0.7);
+			margin       : -3px 0 -3px 0;
 		}
 
 		.brand .so-will-the-others {
-			font-size    : 31px;
-			line-height  : 0.6em;
-			transform    : scaleY(0.7)
+			font-size    : 30px;
+			line-height  : 0.8em;
+			transform    : scaleY(0.7);
 		}
